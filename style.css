@@ -53,14 +53,16 @@ nav {
 
 /* Hamburger menu styles */
 .burger {
-    display: none;
-    flex-direction: column;
+    display: list-item;
+    flex-direction: row;
     cursor: pointer;
+    position:static;
 }
 
 .line1, .line2, .line3 {
-    width: 25px;
-    height: 3px;
+    position: left;
+    width: 2px;
+    height: 1px;
     background-color: white;
     margin: 3px;
 }
