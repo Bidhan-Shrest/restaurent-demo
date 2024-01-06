@@ -28,7 +28,7 @@ nav {
     padding: 0 20px;
 }
 
-.logo img{
+#logo img{
     width: 100px; /* Set your desired width */
     height: auto; /* Maintain aspect ratio */
 }
@@ -58,14 +58,22 @@ nav {
     cursor: pointer;
     position:static;
 }
-
-.line1, .line2, .line3 {
+#line1 {
+    /* position: left; */
+    /* object-position:0%; */
+    size: 0cap;
+    width: 2rem;
+    height: 5rem;
+    background-color: brown;
+    margin:0%;
+}
+/* .line2, .line3 {
     position: left;
     width: 2px;
     height: 1px;
     background-color: white;
     margin: 3px;
-}
+} */
 
 /* Main section styles */
 .main-section {
